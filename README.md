@@ -6,7 +6,7 @@ This tool is converting texts to hashes.
 
 ### Install via requirements.txt
 
-pip3 install -r requirements.txt
+`pip3 install -r requirements.txt`
 
 ## Usage
 
