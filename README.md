@@ -2,6 +2,12 @@
 
 This tool is converting texts to hashes.
 
-# Usage
+## Installation
+
+### Install via requirements.txt
+
+pip3 install -r requirements.txt
+
+## Usage
 
 `python hashgenerator.py -t TEXT -T HASHTYPE`
