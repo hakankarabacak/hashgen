@@ -1,5 +1,4 @@
 from ast import parse
-from asyncio.windows_events import NULL
 import sys
 
 from colorama import init
@@ -14,7 +13,7 @@ import argparse
 
 def main(text, hashType):
     encoder = text.encode('utf_8')
-    myHash = NULL
+    myHash = ""
 
     if hashType.lower() == 'md5':
         myHash = hashlib.md5(encoder).hexdigest()
